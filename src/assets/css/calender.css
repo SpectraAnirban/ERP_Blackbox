@@ -1,0 +1,49 @@
+.rs__view_navigator button:nth-child(2), .rs__view_navigator button:first-child{
+  display: none;
+}
+.rs__view_navigator button:nth-child(3){
+    order: 1;
+}
+.rs__view_navigator button:nth-child(4){
+    order: 2;
+}
+.scrollHoliday{
+    height: 320px;
+    overflow: auto;
+    overflow-y: auto;
+}
+.cardHight{
+    height: fit-content !important;
+}
+.dobStyle li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom:5px;
+    padding: 8px 0;
+    font-weight: 500;
+    color: #000;
+    font-size: 16px;
+    border-bottom: 1px solid hsla(0, 0%, 74%, .251);
+}
+.dobStyle span {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    height: 50px;
+    justify-content: center;
+    -webkit-justify-content: center;
+    min-width: 50px;
+    width: 50px;
+    line-height: 1.2;
+    margin-right: 15px;
+    font-size: 13px;
+    padding: 0 10px;
+}
+.dobStyle li:last-child{
+    border-bottom: none;
+}

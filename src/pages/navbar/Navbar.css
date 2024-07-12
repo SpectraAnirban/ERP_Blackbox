@@ -1,0 +1,201 @@
+/* src/Navbar.css */
+.sidebar{
+    background-color: #fff;
+    border-color: #fff !important;
+    box-shadow: 0 2px 8px #285ab91a;
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    transition: left .3s ease, width .3s ease;
+    width: 250px;
+}
+.css-dip3t8 {
+    
+    background-color: #fff !important;
+}
+.css-1wvake5{
+    border:0 !important
+}
+.topheader{
+    background: #fff;
+    border-color: #fff !important;
+    border: 0;
+    box-shadow: 0 2px 8px #285ab91a;
+    height: 65px;
+    left: 0;
+    padding: 0 3% 0 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 1;
+}
+.ps-menu-button{
+    border-left: 4px solid transparent;
+    color: #000 !important;
+}
+.ps-menu-button:hover{
+    border-color: #14a8b6;
+    background: #8ee1e9 !important;
+    color: #000 !important;
+}
+.ps-menu-button span a{
+    color: #000 !important;
+}
+.ps-menu-button:hover span a{
+    color: #000 !important;
+}
+.closemenu{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000932 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ /* svg{
+    color: #000 !important;
+} */
+
+.ps-menu-root{
+    padding-top: 8%;
+}
+.logotext{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+}
+.logotext p{
+    margin: 0;
+    padding: 0px 40px 0 15px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #000932;
+}
+.ps-menu-button:hover .ps-menu-icon{
+    background: #53bbc5;
+    border-radius: 50%;
+    color: #fff;
+}
+hr{
+    border-color: #a9a9a9 !important;
+    margin-bottom: 0 !important;
+}
+/* .ps-menu-root:first-child{
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+.ps-menu-root:last-child{
+    border-top: 1px solid #ededed;
+    padding-top: 5%;
+    margin-top: 8%;
+} */
+
+.topheader ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.topheader ul li{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 10px;
+}
+.topheader ul li a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.topheader ul .iconsize a{
+    color: #545454;
+    font-size: 23px;
+    font-weight: 500;
+}
+.topheader ul li .p-inputtext{
+    height: 35px;
+    width: 158px;
+    border:0 !important;
+    border-bottom: 1px solid #d6d6d6 !important;
+    border-radius: 0 !important;
+}
+.p-inputtext:enabled:focus {
+    box-shadow: none;
+    border-color: #06b6d4;
+}
+.count_no{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18px !important;
+    height: 18px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    font-size: 9px;
+    border-radius: 50% !important;
+    background: #dc4c64;
+    color: #fff;
+    line-height: 1;
+}
+
+.topheader .dropdown button{
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 !important;
+    text-transform: capitalize;
+    max-width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -moz-line-clamp: 1;
+    -ms-line-clamp: 1;
+    -o-line-clamp: 1;
+    line-clamp: 1;
+}
+.topheader .dropdown-menu{
+    transform: translate(1px, 41px) !important; 
+    border-radius: 0 I !important; 
+}
+.topheader .dropdown-menu li{
+    margin: 0 !important;
+}
+.topheader .dropdown-menu a {
+    font-size: 14px !important;
+    color: #000 !important;
+    font-weight: 400 !important;
+    padding: 7px 10px;
+    display: block;
+}
+/* .submenu_padding li span{
+    padding-left: 50px;
+} */
+
+.subIcon{
+    position: absolute;
+    right: 16px;
+    font-size: 28px;
+    top: 0;
+    color: #323030 !important;
+}

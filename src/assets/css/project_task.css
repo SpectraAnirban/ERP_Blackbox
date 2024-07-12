@@ -1,0 +1,302 @@
+
+  
+  .column {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 400px;
+  }
+  
+  .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .pjtaskscroll .card{
+    border: 1px solid #c6f9ff;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+  .pjtaskscroll .card-header{
+    background-color: #7ee4f1;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 9px 15px;
+    margin-bottom: 0 !important;
+    font-weight: 600;
+    font-size: 16px !important;
+  }
+  .pjtaskscroll .card .card-body{
+    height: 68vh !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+  }
+
+  .FormModal .css-mfqtdv{
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    max-height: 90%;
+    transform: scale(1);
+    position: relative;
+    width: 60vh;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .FormModal h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+  }
+
+  .FormModal .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root{
+    margin-bottom: 10px !important;
+  }
+  .FormModal .dropzone{
+    border: 1px solid #c4c4c4;
+    padding: 16.5px 14px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .task h3{
+    display: block;
+    margin: 0 0 0 0;
+    padding: 6px 0 6px 0;
+    overflow: hidden;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .task h3 small, .task p span{
+      font-size: 12px;
+      color: #6d6d6d;
+      font-weight: 400;
+      margin-bottom: 3px;
+      font-style: italic;
+  }
+  .taskBTN{
+    position: absolute;
+    top:5px;
+    right: 5px;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border:0;
+    z-index: 2;
+  }
+  .task p{
+    display: block;
+    margin: 0 0;
+    padding: 0 0 6px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+  }
+  .extraTask ol li{
+    margin: 0 0 15px 0;
+    padding: 0 0 6px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    border-bottom: 1px dashed #e5e5e5;
+  }
+  .extraTask ol li a{
+    display: block;
+    color: #575757;
+    margin-bottom: 5px;
+    
+  }
+  .extraTask ol li:last-child{
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+  .scrollSubtask{
+    max-height:450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    line-height: 1 !important;
+  }
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 8px 14px !important;
+    font-size: 14px !important;
+    height: 30px !important;
+    background-color: #fff !important;
+  }
+
+  .loopSubtask{
+    margin-bottom: 15px !important;
+    padding-bottom: 15px;
+    position: relative;
+  }
+  .loopSubtask:first-child{
+    border-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .BTremove{
+      position: absolute;
+      top: -39px;
+      right: 0;
+      z-index: 1;
+      border:0 ;
+      background: transparent !important;
+  }
+  .task .p-dropdown {
+        width: 184px;
+        height: 30px;
+        position: relative;
+        border-radius: 0;
+        font-size: 14px !important;
+        border: 0;
+    }
+    .task .p-dropdown:focus{
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
+    .task .p-inputtext {
+        padding: 3px 5px !important;
+        font-size: 13px !important;
+
+    }
+      .FormModal .p-inputtext, .FormModal .p-calendar, .FormModal .p-dropdown {
+        width: 100% !important;
+        height: 48px !important;
+        border-radius: 5px !important;
+        font-size: 16px !important;
+      }
+      .css-79ws1d-MuiModal-root {
+        z-index: 11 !important;
+    }
+    .FormModal .p-inputtext{
+        padding: 11px 15px !important;
+    }
+    .commentBody{
+        
+    }
+    .commentBody ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        max-height:250px !important;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .commentBody ul li{
+        padding: 10px 0;
+        border-bottom: 1px dashed #e5e5e5;
+        display: flex;
+    }
+    .com-user{
+      align-items: center;
+      display: flex;
+      font-weight: 500;
+      height: 45px;
+      justify-content: center;
+      -webkit-justify-content: center;
+      min-width: 45px;
+      width: 45px;
+      border-radius: 50% !important;
+      background-color: #f065481a;
+      color: #f06548;
+    }
+    .commentBody ul li .com-text{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .commentBody ul li .com-text h6{
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: #000;
+    }
+    .commentBody ul li .com-text h6 span{
+      margin-left: 10px;  
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #9FADBC;
+    }
+    .commentBody ul li .com-text p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #000;
+        margin-bottom: 8px;
+    }
+    .commentBody ul li .com-text span a{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #9FADBC;
+      margin: 0 10px 0 0;
+      color: #f06548 !important;
+      text-decoration: underline;
+    }
+    .commentBody ul li .com-text p img{
+      width: 180px;
+      height: 180px;
+      display: block;
+      object-fit: cover;
+      margin: 8px 0;
+    }
+
+    .commentBody h5{
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #000;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 10px;
+  }
+  .commentBody h5 span{
+    font-size: 15px;
+    display: block;
+    font-weight: 400;
+    line-height: 20px;
+    color: #292929;
+    margin-top: 8px;
+  }
+
+  .scrollModal{
+    height: 420px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 8px;
+    padding-top: 10px;
+  }
+  .loopRow .row{
+    border-bottom: 1px dashed #e5e5e5;
+    padding: 10px !important;
+    background: #e9e9e9;
+    margin: 10px 0;
+  }
+  @media (max-width: 1460px) {
+    .extraTask small, .extraTask .small{
+        font-size: 10px;
+    }
+    .extraTask ol, .extraTask ul {
+      padding-left: 1rem !important;
+    }
+    .extraTask a {
+      font-size: 13px;
+    }
+  }

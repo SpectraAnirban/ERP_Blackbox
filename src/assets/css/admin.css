@@ -1,0 +1,257 @@
+.dashboard_card .card, .dashboard_secondcard .card{
+    border: 1px solid #ededed;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.dashboard_card .card .card-body, .dashboard_secondcard .card .card-body{
+    padding: 20px;
+}
+.dashboard_card .card .card-header{
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.dashboard_card .card .card-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+}
+.dashboard_card .card .card-text span{
+    margin-top: 10px;
+    color: #000;
+    font-size: 14px;
+}
+
+.dashboard_secondcard .card .card-header {
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.stats-box {
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    margin: 0 0 15px;
+    padding: 5px;
+}
+.stats-box p {
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.stats-box h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+.progress {
+    border-radius: 10px !important;
+}
+.bg-purple{
+    background-color: #9368e9 !important;
+}
+.text-purple{
+    color: #9368e9 !important;
+}
+.leave-info-box {
+    border: 1px solid #e5e5e5;
+    margin: 0 0 15px;
+    padding: 15px;
+}
+.text-sm {
+    font-size: 14px !important;
+}
+.badge{
+    font-size: 10px !important;
+    font-weight: 400 !important;
+}
+.card-title:last-child, .leave-info-box:last-child{
+    margin-bottom: 0 !important;
+}
+.scrollbody{
+    height: 380px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.bg-inverse-danger {
+    background-color: rgba(242, 17, 54, 0.12) !important;
+    color: #e63c3c !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.form-control{
+    height: 46px !important;
+    border:1px solid #e3e3e3 !important;
+    background-color: #fff !important;
+
+}
+.form-select{
+    border:1px solid #e3e3e3 !important;
+    background-color: #fff !important;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+    border: 1px solid #e5e7eb !important;
+}
+.p-inputtext{
+    padding: 8px 15px !important;
+    font-size: 14px !important;
+}
+.p-multiselect .p-multiselect-label{
+    padding: 0 !important;
+}
+.p-tag{
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+    padding: 8px 15px;
+}
+.p-tag-secondary{
+    background-color: rgb(146, 146, 146);
+}
+.p-datatable-tbody td span{
+    margin-left: 10px;
+}
+.p-datatable-header .flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* .p-button{
+    padding: 0 10px;
+    line-height: 1;
+    height: auto !important;
+    border-radius: 4px;
+}
+.p-button-icon{
+    font-size: 16px;
+}
+.p-button-label{
+    font-size: 14px;
+    font-weight: 500;
+} */
+.p-datatable-header .p-inputtext{
+    font-size: 14px !important;
+    height: 35px;
+    padding-left: 35px !important;
+}
+.p-datatable .p-datatable-thead > tr > th {
+    border: 1px solid #e5e7eb !important;
+    font-size: 15px;
+    padding: 5px 18px;
+    background: #fff;
+}
+.p-multiselect-items, .p-dropdown-items{
+    padding-left: 0;
+}
+.p-multiselect-item .flex span{
+    margin-left: 10px;
+}
+.p-component{
+    font-size: 15px;
+    font-weight: 400;
+}
+.p-multiselect-trigger{
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+.form-control {
+    padding: 9px 12px !important;
+}
+
+.editButton{
+    height: 44px !important;
+    border-radius: 0 !important;
+}
+.p-inputtext {
+    resize: none;
+}
+.tasktext{
+    background: #f3f3f3;
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+}
+.tasktext p{
+    margin-bottom: 0;
+}
+.tasktext small{
+    font-size: 12px;
+}
+.tasksheet-body{
+    height: 406px;
+    overflow-y: auto;
+}
+.pencilButton span{
+    font-size: 12px !important;
+    color: #e63c3c;
+}
+.pencilButton:hover, .pencilButton:focus{
+    border-color: #f3f3f3;
+    background: transparent;
+}
+.admin_task tr td{
+    padding: 0;
+    vertical-align: sub;
+}
+.admin_task tr th:first-child{
+    width: 110px !important;
+    font-size: 14px;
+    padding: 6px 15px;
+}
+.admin_task tr td .ad_tdata{
+    width: 280px;
+    max-height:240px;
+    overflow-y: auto;
+}
+.admin_task tr td .ad_tdata p{
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 5px;
+    color: #000;
+}
+.empedt_form{
+    padding: 5px !important;
+}
+.edit-section .form-select{
+    margin-bottom:5px !important;
+    height: 30px !important;
+    font-size: 10px !important;
+    line-height: 1;
+}
+.edit-section .form-control{
+    font-size: 12px !important;
+    resize: none;
+}
+
+.edit-section table tr:nth-of-type(odd)>* {
+    background-color: #f5f5f5 !important;
+}
+.ad_tdata p{
+    font-size: 13px;
+}
+.ad_tdata p:last-child{
+    border-bottom: 0 !important;
+}
+.admin_task tr td:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000 !important;
+}
+.hrshortdata{
+    position: absolute;
+    font-size: 90px;
+    right: 10%;
+    top: 0;
+    line-height: 1;
+    color: #f3f4f6 !important;
+}
